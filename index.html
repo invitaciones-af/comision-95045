@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link de bt  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- link de mi css  -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Clase 05</title>
+</head>
+
+<body>
+
+    <h1 class="text-center bg-success m-3 p-3"> hola mundo ! </h1>
+
+    <!-- sistema de grillas  -->
+
+    <!-- contenedor principal : container o container-fluid -->
+    <!-- item del contenedor principal :  row -->
+    <!-- item del item : col -->
+
+    <main class="bg-danger container-fluid">
+        <div class="row">
+            <p class="col-sm-6 col-md-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus dolore
+                numquam eligendi maiores dolores, voluptatem voluptatum perspiciatis omnis quas doloremque adipisci
+                facere quaerat nisi iure qui excepturi rerum, consequatur id.</p>
+
+            <p class="col-sm-6 col-md-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab soluta porro vitae
+                nulla iste debitis quisquam, tempore velit. Itaque vitae, esse nisi ut cumque animi ipsam odio quas
+                corrupti autem?</p>
+        </div>
+    </main>
+
+    <nav class="navbar navbar-expand-lg tomato-bg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu tomato-bg">
+                            <li><a class="dropdown-item ancla" href="#">remeras</a></li>
+                            <li><a class="dropdown-item ancla" href="#">pantalones</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item ancla" href="#">gorras</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div>
+        <img src="img/imagen-dos.jpeg" alt="">
+    </div>
+
+    <!-- js script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

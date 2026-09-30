@@ -1,0 +1,23 @@
+.tomato-bg{
+    background-color: tomato;
+}
+
+div img{
+    width: 30%;
+}
+
+div img:hover{
+    border-radius: 100%;
+    box-shadow: 20px 3px 10px black;
+}
+
+
+/* .tomato-bg .ancla:hover{
+    background-color: rgb(81, 42, 35);
+    color: white;
+} */
+
+.tomato-bg .ancla:active{
+    background-color: black;
+    color: whitesmoke;
+}
